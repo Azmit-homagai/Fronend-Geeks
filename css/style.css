@@ -1,0 +1,218 @@
+/* Universal Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Scroll  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*header styling */
+
+#header {
+  background-image: url("../images/william-warby-ld4wZGqlLF4-unsplash.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header nav {
+  padding: 30px;
+}
+
+#header ul {
+  float: right;
+}
+
+/* Navbar Styling */
+
+#header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+/* main contact background styling */
+
+span {
+  color: purple;
+}
+/* #main-c-text {
+  color: purple;
+}
+
+#main-contact-me {
+  color: purple;
+} */
+
+#navbar {
+  /* position: fixed; */
+  float: left;
+}
+
+/* pseudo slectors */
+#header ul li a:hover {
+  color: coral;
+}
+
+/* intro section styling  */
+#intro-section {
+  padding-top: 180px;
+  padding-left: 350px;
+  text-align: center;
+}
+
+#intro-section #intro,
+#intro-section #hello {
+  font-size: 2.2rem;
+}
+
+#intro-section p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+#intro-section p a {
+  text-decoration: none;
+}
+
+#intro-p {
+  font-weight: bolder;
+}
+
+/* about me styling */
+#about-me {
+  padding: 2rem;
+  line-height: 2rem;
+  /* margin-top: 1px; */
+  background-color: burlywood;
+}
+
+#about-me #title-about-me {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#about-me p {
+  text-align: justify;
+}
+
+/* About me team text styling */
+.team-text {
+  text-align: center;
+  text-align: center;
+}
+
+/* Contact Me Styling  */
+#contact-me {
+  text-align: center;
+  line-height: 1.5rem;
+  background: grey;
+  padding-top: 30px;
+}
+
+#contact-me #contact-me-text {
+  font-weight: bolder;
+}
+
+/* Fotter Styling */
+#footer {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 70px;
+  padding: 30px;
+}
+
+/* nav bar css try */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  border-radius: 5px;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  text-align: left;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  transition: all;
+  transition-duration: 2s;
+  cursor: click;
+}
+
+.navbar li a:hover {
+  background-color: coral;
+  color: white;
+}
+
+/* Form styling */
+#form {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: brown;
+  font-weight: bolder;
+}
+
+.form-group {
+  padding: 15px;
+}
+
+input {
+  width: 20%;
+}
+
+button {
+  height: 25px;
+  width: 60px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/*  about us image styling */
+.about-image {
+  padding: 30px;
+  margin: auto;
+  display: block;
+}
+/* 
+#projects {
+  background-color: azure;
+  color: black;
+  height: 50vh;
+  padding-top: 40px;
+  line-height: 5rem;
+} */
